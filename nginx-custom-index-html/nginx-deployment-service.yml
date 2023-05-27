@@ -3,6 +3,7 @@ kind: Deployment
 metadata:
   name: nginx-kubernetes-argocd
 spec:
+  replicas: 3
   selector:
     matchLabels:
       app: nginx-kubernetes-argocd
