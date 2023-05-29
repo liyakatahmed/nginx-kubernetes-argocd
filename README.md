@@ -1,1 +1,1 @@
-Uses a Custom NGINX image build from Dockerfile, pulled from DockerHub and deployed on Kubernetes using ArgoCD
+Uses a custom NGINX image build using Dockerfile, uploaded to DockerHub and deployed on Kubernetes using ArgoCD.
