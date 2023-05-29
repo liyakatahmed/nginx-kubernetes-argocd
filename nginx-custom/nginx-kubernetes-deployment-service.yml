@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: nginx-kubernetes-argocd
-        image: liyakatahmed/nginx-custom-index-html
+        image: liyakatahmed/nginx-custom
         ports:
         - containerPort: 80
 ---
